@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- To see how these attributes are used, please visit https://material.io/develop/android/theming/color/ -->
+    <style name="Base.Theme.FlightTicket" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/flight_black_500</item>
+        <item name="colorPrimaryVariant">@color/flight_black_100</item>
+        <item name="android:colorBackground">@color/flight_white</item>
+        <item name="android:statusBarColor">@color/flight_yellow_dark</item>
+    </style>
+
+    <style name="Theme.FlightTicket" parent="Base.Theme.FlightTicket" />
+
+    <style name="Theme.FlightTicket.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.FlightTicket.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+
+    <style name="TextAppearance.FlightTicket.Toolbar.Text" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+    <style name="Theme.FlightTicket.From.Text" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">96sp</item>
+        <item name="android:textColor">@color/flight_black_500</item>
+    </style>
+
+    <style name="Theme.FlightTicket.Text.Title" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="Theme.FlightTicket.Data.Text" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="Theme.FlightTicket.Data.Title" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#8A938F</item>
+    </style>
+
+</resources>

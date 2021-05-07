@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="flight_white">#ffffff</color>
+    <color name="flight_black_500">#24181C</color>
+    <color name="flight_black_100">#8A938F</color>
+    <color name="flight_yellow">#FFD34F</color>
+    <color name="flight_yellow_dark">#C8A216</color>
+</resources>
