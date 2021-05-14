@@ -23,7 +23,6 @@ class MainActivityTest : BaseTest(), ScreenshotTest {
     @Test
     fun myTest() {
         val intent = Intent(ApplicationProvider.getApplicationContext(), MainActivity::class.java)
-            .putExtra("title", "Testing rules!")
         scenario = launch(intent)
         scenario.onActivity {
             takeScreenshotActivity(it, this.javaClass.name, "myTest")
