@@ -29,7 +29,7 @@ class MainActivityTest : BaseTest(), ScreenshotTest {
         }
     }
 
-    fun takeScreenshotActivity(activity: Activity, nameClass: String, testName: String) {
+    private fun takeScreenshotActivity(activity: Activity, nameClass: String, testName: String) {
         val view = activity.findViewById<View>(android.R.id.content)
         val name = "${nameClass}.${testName}"
         try {
